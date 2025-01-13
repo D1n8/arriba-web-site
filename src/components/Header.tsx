@@ -33,7 +33,7 @@ const Header = observer(() => {
     return (
         <header className="header">
             <div className="header__container">
-                <a href={SHOP_ROUTE} className="logo header__logo">
+                <a onClick={()=>history(SHOP_ROUTE)} className="logo header__logo">
                     <img src={logo} alt="Arriba" />
                     <span>Arriba</span>
                 </a>
