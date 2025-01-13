@@ -12,6 +12,18 @@
     }
 }
 
+@media(max-width: 1600px){
+    .products-list{
+        gap: calc((100% - (5 * 225px)) / 4);
+    }
+}
+
+@media(max-width: 1360px){
+    .products-list{
+        gap: calc((100% - (4 * 225px)) / 3);
+    }
+}
+
 
 .product{
     width: 200px;

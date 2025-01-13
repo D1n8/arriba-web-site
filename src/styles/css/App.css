@@ -512,6 +512,16 @@
   font-size: 30px;
 }
 
+@media (max-width: 1600px) {
+  .products-list {
+    gap: calc((100% - 1125px) / 4);
+  }
+}
+@media (max-width: 1360px) {
+  .products-list {
+    gap: calc((100% - 900px) / 3);
+  }
+}
 .product {
   width: 200px;
   display: flex;
