@@ -60,7 +60,7 @@ const Auth = observer(() => {
                         <input onChange={e => setPassword(e.target.value)} value={password} className="auth__input" type="password" placeholder="Введите пароль" />
                         <div className="auth__btns-container">
                             <div>Нет аккаунта?
-                                <a className="auth__btn_registration" href={REGISTRATION_ROUTE}> Зарегистрируйся!</a>
+                                <a className="auth__btn_registration" onClick={()=>history(REGISTRATION_ROUTE)}> Зарегистрируйся!</a>
                             </div>
                             <button onClick={(e) => {
                                 e.preventDefault()
@@ -81,7 +81,7 @@ const Auth = observer(() => {
                         </label>
                         <div className="auth__btns-container">
                             <div>Есть аккаунт?
-                                <a className="auth__btn_registration" href={LOGIN_ROUTE}> Войдите!</a>
+                                <a className="auth__btn_registration" onClick={()=>history(LOGIN_ROUTE)}> Войдите!</a>
                             </div>
                             <button className="btn auth__btn" onClick={(e) => {
                                 e.preventDefault()

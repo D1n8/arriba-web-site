@@ -18,7 +18,7 @@ createRoot(document.getElementById('root')!).render(
         user: new UserStore(),
         product: new ProductStore()
     }}>
-        <BrowserRouter basename='/arriba-web-site'>
+        <BrowserRouter basename='/arriba-web-site/'>
             <App />
         </BrowserRouter>
 
