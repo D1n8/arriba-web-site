@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://d1n8.github.io/arriba-web-site/arriba"
+  base: "/arriba-web-site/arriba/"
 })
